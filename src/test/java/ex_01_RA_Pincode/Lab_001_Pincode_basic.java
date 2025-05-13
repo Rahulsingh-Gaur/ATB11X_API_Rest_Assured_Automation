@@ -1,4 +1,4 @@
-package Lab_Pincode_Rest_API;
+package ex_01_RA_Pincode;
 
 import io.restassured.RestAssured;
 
