@@ -1,4 +1,4 @@
-package ex_04_RA_HTTP_method;
+package ex_04_RA_HTTP_method_Booker_API;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

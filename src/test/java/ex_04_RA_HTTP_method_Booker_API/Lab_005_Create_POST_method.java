@@ -1,10 +1,9 @@
-package ex_04_RA_HTTP_method;
+package ex_04_RA_HTTP_method_Booker_API;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
 import org.testng.annotations.Test;
 
 public class Lab_005_Create_POST_method{
