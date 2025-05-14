@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/rahulhajari/Documents/JavaAutomation/ATB11X_API_Rest_Assured_Automation/src/test/java/ex_03_RA_Pincode/Lab_004_Pincode_allure_Report_RA.java"><classes><class name="ex_03_RA_Pincode.Lab_004_Pincode_allure_Report_RA"><methods><include name="test_Pincode_postive_case"/></methods></class></classes></test></suite>
