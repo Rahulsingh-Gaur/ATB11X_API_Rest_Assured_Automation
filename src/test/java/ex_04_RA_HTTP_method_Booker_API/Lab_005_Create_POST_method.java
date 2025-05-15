@@ -1,10 +1,15 @@
 package ex_04_RA_HTTP_method_Booker_API;
 
+import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.hamcrest.Matcher;
+import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
+
+import java.util.Collections;
 
 public class Lab_005_Create_POST_method{
 
@@ -12,7 +17,9 @@ public class Lab_005_Create_POST_method{
     Response  r;
     ValidatableResponse vr;
 
-    @Test public void test_Create_booking(){
+
+    @Test (invocationCount = 1)
+    public void test_Create_booking(){
         String payload ="{\n" +
                 "    \"firstname\" : \"Rahul\",\n" +
                 "    \"lastname\" : \"Singh\",\n" +
@@ -39,6 +46,9 @@ public class Lab_005_Create_POST_method{
 
         vr= r.then().log().all();
         vr.statusCode(200);
+
+        //Asseartion
+        vr.body("booking.firstname", Matchers.equalTo("Rahul"));
 
 
 

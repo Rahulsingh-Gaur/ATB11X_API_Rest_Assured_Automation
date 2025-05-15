@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/rahulhajari/Documents/JavaAutomation/ATB11X_API_Rest_Assured_Automation/src/test/java/ex_05_RA_HTTP_method_Booker_API_Pracstic">
+        <classes><class name="ex_05_RA_HTTP_method_Booker_API_Pracstic.Lab_009_Project"><methods>
+            <include name="test_Create_token"/>
+            <include name="test_Post_Createbooking"/>
+            <include name="test_Get_Single_booking"/>
+            <include name="test_Patch_Req"/>
+            <include name="test_Delete_Booking"/>
+        </methods></class></classes></test></suite>
